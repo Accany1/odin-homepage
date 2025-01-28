@@ -1,18 +1,144 @@
-* {
+html,
+body {
     padding: 0;
     margin: 0;
-}
-
-body {
-    overflow: hidden;
     font-family: system-ui, Roboto, "Playfair Display", serif;
+    background: linear-gradient(170deg, #0891B2, #0891B2 20%, white 20.1%, white 100%);
 }
-
 
 h1 {
     font-family: "Playfair Display", serif;
+    font-weight: 500;
+    margin: 0;
 }
 
-p {
+h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    margin: 0;
+    font-size: 1.3em;
+}
+
+i {
+    font-size: 1.3em;
+}
+
+.main-desc {
     font-family: Roboto;
+    line-height: 150%;
+}
+
+.description {
+    font-family: Roboto;
+    font-size: 0.8em;
+}
+
+.content {
+    margin: 40px 5%;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+}
+
+.main-image {
+    height: 350px;
+    width: 100%;
+    object-fit:cover;
+    box-shadow: 1px 3px 7px rgba(0,0,0,0.2);
+}
+
+.heading-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    margin: 30px 0px;
+    box-shadow: 1px 3px 7px rgba(0,0,0,0.2);
+}
+.works-section {
+    margin-top: 100px;
+}
+
+.screenshots {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Playfair Display", serif;
+    color: white;
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icons {
+    margin-top: 10px;
+    margin-left: auto;
+    display: flex;
+    justify-items: center;
+    gap: 15px;
+}
+
+.works {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(50px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 3px 7px rgba(0,0,0,0.2);
+}
+
+.project-content {
+    padding: 10px 20px;
+    height: 120px;
+}
+
+.title-icons {
+    display: flex;
+    align-items: center;
+}
+
+.screenshot-1  {
+    background-color: tomato;
+}
+
+.screenshot-2  {
+    background-color: purple;
+}
+
+.screenshot-3  {
+    background-color: green;
+}
+
+.screenshot-4  {
+    background-color: pink;
+}
+
+.screenshot-5  {
+    background-color: rgb(218, 176, 39);
+}
+
+.screenshot-6  {
+    background-color: lightblue;
+}
+
+footer {
+    background-color: #0891B2;
+    padding: 40px;
+}
+
+.footer-container {
+    color: white;
+}
+
+.phone, 
+.email {
+    display: flex;
+    align-items: center;
 }
